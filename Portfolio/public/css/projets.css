@@ -1,0 +1,287 @@
+﻿.divDescriptionProjet{
+    opacity: 1;
+    display:flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 1vh;
+}
+
+.textesynopsysProjet{
+    position: absolute;
+    color: white;
+    font-size: 3vh;
+    text-align: justify;
+    margin: 0 4vw;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.divDescriptionProjet:hover .textesynopsysProjet{
+    opacity: 1;
+}
+
+.divDescriptionProjet:hover .imageAccueilProjet{
+    filter: brightness(50%);
+}
+
+.imageAccueilProjet{
+    width: 100%;
+    transition: filter 0.5s ease;
+    border-radius: 10px;
+}
+
+.pTitre{
+    font-size: 10vw;
+    margin: 0;
+    width: 100%;
+}
+
+.pSousTitre {
+    font-size: 3vw;
+    margin: 0;
+    width: 100%;
+}
+
+.texteContexteProjet{
+    text-align: justify;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 2vw;
+}
+
+.titreContexteProjet{
+    font-size: 5vw;
+    width: 100%;
+    text-align: center;
+}
+
+.imageFriseChronologique{
+    width: 100%;
+    border-radius: 10px;
+    transition: filter 0.5s ease;
+}
+
+.sousTitreContexteProjet{
+    font-size: 3vw;
+    width: 100%;
+    text-align: center;
+}
+
+.divReflexion{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    padding:2.5vw;
+    align-items: center;
+    gap: 4%;
+    transition: background-color 0.5s ease;
+}
+
+.divReflexion:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.imageReflexion{
+    border-radius: 10px;
+    width: 90%;
+    transition: filter 0.5s ease;
+}
+
+.legende{
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    font-size: 2vw;
+    z-index: 2;
+    margin: 0;
+    width: 75%;
+    text-align: center;
+}
+
+.divLegendeImage{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.divLegendeImage:hover .imageReflexion{
+    filter: brightness(50%);
+}
+
+.divLegendeImage:hover .legende{
+    opacity: 1;
+}
+
+.divLegendeImage:hover .imageFriseChronologique{
+    filter: brightness(50%);
+}
+
+.divLegendeImage:hover .imageProgMode{
+    filter: brightness(50%);
+}
+
+.divImageReflexion{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    gap: 10px;
+}
+
+.explicationDerouleProduction{
+    width: 100%;
+    text-align: justify;
+    font-size: 2vw;
+}
+
+.divTexteReflexion{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    padding: 0;
+    margin: 0;
+}
+
+.divCahierCharges{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    padding:2.5vw;
+    align-items: center;
+    gap: 4%;
+    transition: background-color 0.5s ease;
+}
+
+.divCahierCharges:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.divImageCahierCharge{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    gap: 10px;
+}
+
+.asterisqueCahierCharges{
+    width: 100%;
+    text-align: left;
+    font-size: 1vw;
+}
+
+.divProgMode{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    padding:2.5vw;
+    align-items: center;
+    gap: 4%;
+    transition: background-color 0.5s ease;
+}
+
+.divProgMode:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.divImageProgMode{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    gap: 30px;
+}
+
+.imageProgMode{
+    border-radius: 10px;
+    width: 90%;
+    transition: filter 0.5s ease;
+}
+
+.divOpti{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    padding:2.5vw;
+    align-items: center;
+    gap: 4%;
+    transition: background-color 0.5s ease;
+}
+
+.divOpti:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.divImageOpti{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    gap: 10px;
+}
+
+.conclusion{
+    font-size: 2vw;
+    width: 80%;
+    margin-left: 10%;
+    text-align: justify;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+
+.lienProjet{
+    display: inline-block; /* IMPORTANT */
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    height: 5vh;
+    width: 15vw;
+    font-size: 2vh;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.5s ease;
+    z-index: 1;
+    margin-bottom: 20vh;
+    margin-left: 42.5vw;
+    line-height: 5vh; /* centre vertical du texte */
+}
+
+.lienProjet::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #b363a3;
+    transition: left 0.5s ease;
+    z-index: -1;
+}
+
+.lienProjet:hover::before{
+    left: 0;
+}
+
+.lienProjet:hover{
+    color: white;
+}

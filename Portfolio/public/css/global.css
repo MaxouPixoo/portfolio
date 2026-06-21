@@ -1,0 +1,33 @@
+﻿@import url(projets.css);
+@import url(header.css);
+@import url(accueil.css);
+
+body{
+    background-color: #433941;
+    color: white;
+    font-family: "TASA Explorer", sans-serif;
+    font-weight: normal;
+    font-size: large;
+}
+
+#content{
+    margin-top: 20vh;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    font-size: 3vw;
+    flex-direction: column;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}

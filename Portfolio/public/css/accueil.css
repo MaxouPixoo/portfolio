@@ -1,0 +1,212 @@
+﻿
+/*Moi-------------------------------------------->*/
+
+.imageMoi{
+    border-radius: 50%;
+    height: 50vh;
+    width: 50vh;
+    margin-left: 5vh;
+}
+
+.divMoi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pMoi{
+    margin-left: 5vh;
+    margin-right: 5vh;
+    text-align: justify;
+    font-size: 1.5vw;
+}
+
+.pTaf{
+    margin-left: 5vh;
+    margin-right: 5vh;
+    font-size: 1.5vw;
+}
+
+/*Projets------------------------------------------->*/
+
+.ulProjet {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3vw;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    padding-left: 0;
+}
+
+.liProjet {
+    list-style: none;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid white;
+    aspect-ratio: 1 / 1;
+    border-radius: 20px;
+}
+
+/* IMAGE */
+.imgProjet {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: 3s ease;
+    background-color: black;
+}
+
+.liProjet:hover .imgProjet {
+    filter: brightness(40%);
+}
+
+.descriptionProjets{
+    position: absolute;
+    bottom: 2vh;
+    z-index: 2;
+    opacity: 0;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+    font-size: 1.5vw;
+    left: 2vh;
+    right: 2vh;
+}
+
+.projetTitre {
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+    font-size: 2vw;
+    left: 2vh;
+    margin-top: 7vh;
+    margin-right: 2vw;
+}
+
+.liProjet:hover .projetTitre{
+    opacity: 1;
+}
+.liProjet:hover .descriptionProjets{
+    opacity: 1;
+}
+.liProjet:hover .dateProjet{
+    opacity: 1;
+}
+
+.dateProjet{
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+    font-size: 1.5vw;
+    left: 2vh;
+}
+
+/*Expériences---------------------------------------------->*/
+
+.liExperience{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: white 2px solid;
+    border-radius: 50px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 5vh;
+    transition: background-color 0.5s ease;
+}
+
+.liExperience:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.imageExperience{
+    left: 0;
+    width: 15vw;
+    border-radius: 50px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 2vh;
+}
+
+.divDesciptionExperience{
+    margin-left: 5vh;
+}
+
+.titreExperience{
+    margin-top: 0;
+    font-size: 5vh;
+    margin-bottom: 0;
+}
+
+.dateExperience{
+    margin-top: 1vh;
+    margin-bottom: 0;
+}
+
+.lieuExperience{
+    margin-top: 0;
+}
+
+/*Formations----------------------------------------------->*/
+
+.ulFormations{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap:2vw;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 30vh;
+}
+
+.liFormation {
+    display: flex;
+    flex-direction: column;
+    border: white 2px solid;
+    border-radius: 10px;
+    width: 40vw;
+    height: 15vh;
+    justify-content: center;
+    padding: 2vw;
+    transition: background-color 0.5s ease;
+}
+
+.liFormation:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dateFormation{
+    font-size: 1vw;
+    margin:0;
+}
+
+.lieuFormation{
+    font-size: 1.5vw;
+    margin-top: 1vw;
+}
+
+.divTitreFormation{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+}
+
+.titreFormation{
+    font-size: 2vw;
+    margin:0;
+}
+
+.pTitreFormation{
+    font-size: 1vw;
+    margin:0;
+}
